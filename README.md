@@ -17,7 +17,7 @@ Detects scams for:
 - 🇿🇦 Built for SA scams: R4,500 SARS refund, Capitec blocked, eWallet R350
 
 ### 🚀 Live Demo
-https://phoebemathe-pixel-za-scamsheild.streamlit.app
+https://za-scamshield-ahhyieng9sjwrrhsjnsarc.streamlit.app/
 
 ### 🛠️ How to run
 ```bash
