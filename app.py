@@ -4,7 +4,7 @@ import re
 st.set_page_config(page_title="ZA-ScamShield", page_icon="🛡️", layout="centered")
 
 st.title("🛡️ ZA-ScamShield - Detects ANY SA Bank Scam SMS")
-st.write("Paste any Capitec / FNB / ABSA / Standard Bank / Nedbank / TymeBank / SARS scam SMS")
+st.write("Paste any suspicious SMS below")
 
 SA_BANKS = {
     "capitec": ["capitec"],
@@ -73,3 +73,5 @@ if check and sms:
     st.write("### Why?")
     for r in reasons:
         st.write(r)
+
+    st.caption("Made with ❤️ by Botshelo Phoebe Mathe from SA")
